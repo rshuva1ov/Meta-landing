@@ -4,6 +4,7 @@ var swiper = new Swiper(".swiper-container.one", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "auto",
+    speed: 40000,
     initialSlide: 1,
     coverflowEffect: {
         rotate: 10,
