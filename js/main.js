@@ -1,18 +1,13 @@
 // swiper1
 var swiper = new Swiper(".swiper-container.one", {
-    effect: "coverflow",
-    grabCursor: true,
+    slidesPerView: '1',
     centeredSlides: true,
-    slidesPerView: "auto",
     speed: 40000,
-    initialSlide: 1,
-    coverflowEffect: {
-        rotate: 10,
-        stretch: 0,
-        depth: 650,
-        modifier: 1,
-        slideShadows: true
+    autoplay: {
+        enabled: true,
+        delay: 0,
     },
+    allowTouchMove: false,
 });
 
 // swiper2
